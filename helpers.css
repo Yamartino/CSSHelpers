@@ -30,3 +30,10 @@
 .cap{
 	text-transform: capitalize;
 }
+
+.center{
+	position: relative;
+	display: block;
+	margin: auto;
+}
+/*This needs a width to work so I will figure out a good way to force that*/
