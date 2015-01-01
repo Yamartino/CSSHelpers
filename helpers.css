@@ -33,7 +33,13 @@
 
 .center{
 	position: relative;
-	display: block;
-	margin: auto;
+	display: table;
+	margin-left: auto;
+	margin-right: auto;
 }
-/*This needs a width to work so I will figure out a good way to force that*/
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
